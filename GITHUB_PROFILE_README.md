@@ -1,4 +1,4 @@
-# Leonardo Gallego Ríos (Leo) 👋
+# Leonardo Gallego Ríos (Leo)
 ### Fullstack Software Engineer & AI-Augmented Developer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Leonardo_Gallego-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardo-gallego-rios-0016771b9)
