@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio Profesional — Leo Gallego
 
-## Getting Started
+> **Fullstack Engineer & AI-Augmented Developer**  
+> Especializado en arquitecturas backend (.NET, Python, Java), interfaces modernas (Next.js, TypeScript) y soluciones de software aceleradas con Inteligencia Artificial agéntica.
 
-First, run the development server:
+Creador de [Atalaya ERP](https://atalayaerp.com) (SaaS Multi-empresa en producción).
+
+---
+
+## 🚀 Inicio Rápido en Desarrollo
+
+Para ejecutar el portafolio en tu entorno local:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la web con recarga en vivo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Personalización de Datos
 
-## Learn More
+Toda la información del portafolio está centralizada en un único archivo modular para que puedas editarla en segundos:
 
-To learn more about Next.js, take a look at the following resources:
+📂 [`src/data/portfolioData.ts`](src/data/portfolioData.ts)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Allí puedes configurar:
+- **`PERSONAL_INFO`**: Tu nombre, título, correo (`leogallego77@gmail.com`), enlaces a GitHub, LinkedIn y tu número de WhatsApp para contacto directo (`https://wa.me/<numero>`).
+- **`PROJECTS`**: Detalles de tus proyectos (Atalaya ERP, HostMind AI, BetMind AI, EcoAulas, o nuevos que agregues).
+- **`SERVICES`**: Tu catálogo de servicios freelance para captar clientes e ingresos extra.
+- **`SKILL_CATEGORIES`**: Tus tecnologías clasificadas por categoría y nivel de dominio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🏗️ Stack Tecnológico del Portafolio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework**: [Next.js 15+ (App Router)](https://nextjs.org) con TypeScript
+- **Estilos & Diseño**: Tailwind CSS v4 (modo oscuro premium estilo Linear / Vercel)
+- **Iconografía**: [Lucide React](https://lucide.dev) + SVG optimizados
+- **Optimización**: Renderizado estático de alto rendimiento (SSG) y SEO optimizado
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📦 Compilación para Producción
+
+Para compilar el proyecto y verificar que todo está listo para deploy:
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Despliegue en la Nube (Gratis y en 1 Clic)
+
+Este proyecto está listo para ser desplegado en:
+1. **[Vercel](https://vercel.com)**: Conecta tu repositorio de GitHub `k0rz0/Portafolio` e importará y desplegará automáticamente con dominio gratis `.vercel.app` o tu dominio personalizado.
+2. **Cloudflare Pages / Render / Netlify**: Compatible al 100% como export estático o aplicación Next.js.
