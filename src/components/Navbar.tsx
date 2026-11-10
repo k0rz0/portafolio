@@ -5,6 +5,7 @@ import Link from "next/link";
 import { PERSONAL_INFO } from "@/data/portfolioData";
 import { Menu, X, Mail, MessageCircle } from "lucide-react";
 import GithubIcon from "@/components/icons/GithubIcon";
+import LinkedinIcon from "@/components/icons/LinkedinIcon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -61,6 +62,15 @@ export default function Navbar() {
               className="p-2 text-slate-400 hover:text-white hover:bg-slate-800/60 rounded-xl transition-colors"
             >
               <GithubIcon className="w-5 h-5" />
+            </a>
+            <a
+              href={PERSONAL_INFO.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="p-2 text-slate-400 hover:text-blue-400 hover:bg-slate-800/60 rounded-xl transition-colors"
+            >
+              <LinkedinIcon className="w-5 h-5" />
             </a>
             <a
               href={PERSONAL_INFO.whatsapp}

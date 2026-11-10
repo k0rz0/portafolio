@@ -94,7 +94,7 @@ export default function ServicesSection() {
               {/* Action Button */}
               <div className="mt-8 pt-6 border-t border-slate-800/80 flex items-center justify-between">
                 <a
-                  href={`https://wa.me/?text=Hola%20Leo,%20estoy%20interesado%20en%20el%20servicio%20de:%20${encodeURIComponent(
+                  href={`https://wa.me/${PERSONAL_INFO.whatsappNumber}?text=Hola%20Leo,%20estoy%20interesado%20en%20el%20servicio%20de:%20${encodeURIComponent(
                     service.title
                   )}`}
                   target="_blank"

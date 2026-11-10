@@ -32,13 +32,17 @@ export interface SkillCategory {
 
 export const PERSONAL_INFO = {
   name: "Leo Gallego",
+  fullName: "Leonardo Gallego Ríos",
   role: "Fullstack Engineer & AI-Augmented Developer",
   secondaryRole: "Backend, Cloud Architect & SaaS Builder",
   location: "Colombia · Remoto Global",
   email: "leogallego77@gmail.com",
+  corporateEmail: "erpatalaya@gmail.com",
   github: "https://github.com/k0rz0",
-  linkedin: "https://linkedin.com/in/", // Personalizable
-  whatsapp: "https://wa.me/?text=Hola%20Leo,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar%20sobre%20un%20proyecto",
+  linkedin: "https://www.linkedin.com/in/leonardo-gallego-rios-0016771b9",
+  whatsappNumber: "573113024691",
+  whatsappDisplay: "+57 311 302 4691",
+  whatsapp: "https://wa.me/573113024691?text=Hola%20Leo,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar%20sobre%20un%20proyecto",
   bio: "Ingeniero de software con sólida trayectoria en desarrollo Fullstack, arquitecturas backend empresariales y soluciones Cloud. Creo productos digitales robustos en tiempo récord apalancando flujos modernos de Inteligencia Artificial agéntica sin comprometer la calidad de ingeniería.",
   availability: "Disponible para empleo formal (Full-time / Sr Fullstack / Backend) y proyectos de consultoría / desarrollo freelance.",
   stats: [

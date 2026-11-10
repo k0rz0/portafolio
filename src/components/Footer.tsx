@@ -1,6 +1,7 @@
 import { PERSONAL_INFO } from "@/data/portfolioData";
 import { MessageCircle, Mail, ExternalLink } from "lucide-react";
 import GithubIcon from "@/components/icons/GithubIcon";
+import LinkedinIcon from "@/components/icons/LinkedinIcon";
 
 export default function Footer() {
   return (
@@ -29,6 +30,15 @@ export default function Footer() {
               className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition-colors"
             >
               <GithubIcon className="w-5 h-5" />
+            </a>
+            <a
+              href={PERSONAL_INFO.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="p-2 text-slate-400 hover:text-blue-400 hover:bg-slate-800 rounded-lg transition-colors"
+            >
+              <LinkedinIcon className="w-5 h-5" />
             </a>
             <a
               href={PERSONAL_INFO.whatsapp}

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { PERSONAL_INFO } from "@/data/portfolioData";
 import { Mail, MessageCircle, Copy, Check, Send, Sparkles, MapPin } from "lucide-react";
 import GithubIcon from "@/components/icons/GithubIcon";
+import LinkedinIcon from "@/components/icons/LinkedinIcon";
 
 export default function ContactSection() {
   const [copied, setCopied] = useState(false);
@@ -108,6 +109,27 @@ export default function ContactSection() {
             </div>
             <span className="text-xs font-semibold px-3 py-1 rounded-lg bg-slate-900 text-slate-300 border border-slate-800">
               Ver repos
+            </span>
+          </a>
+
+          {/* LinkedIn Profile Card */}
+          <a
+            href={PERSONAL_INFO.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-between p-6 rounded-3xl border border-slate-800 bg-[#0e1424]/60 hover:border-blue-500/50 hover:bg-[#11192e] transition-colors group"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 group-hover:scale-105 transition-transform">
+                <LinkedinIcon className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="text-xs text-slate-500 uppercase font-semibold">Red Profesional</div>
+                <div className="text-sm font-medium text-white">Perfil en LinkedIn</div>
+              </div>
+            </div>
+            <span className="text-xs font-semibold px-3 py-1 rounded-lg bg-blue-600/10 text-blue-400 border border-blue-500/30">
+              Conectar
             </span>
           </a>
 
