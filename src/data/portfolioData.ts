@@ -92,7 +92,6 @@ export const PROJECTS: Project[] = [
     technologies: [".NET 8", "C#", "Next.js", "TypeScript", "PostgreSQL", "Cloudflare R2", "Docker", "Render", "Tailwind CSS"],
     liveUrl: "https://atalayaerp.com",
     swaggerUrl: "https://api.atalayaerp.com/swagger",
-    githubUrl: "https://github.com/k0rz0/atalaya",
     metrics: [
       { label: "Disponibilidad", value: "99.9%" },
       { label: "Arquitectura", value: "Clean Arch / API First" },
